@@ -15,7 +15,7 @@ void expect(bool condition, std::string_view testName) {
     }
 }
 
-}
+}  // namespace
 
 int main() {
     using namespace geometry2d;

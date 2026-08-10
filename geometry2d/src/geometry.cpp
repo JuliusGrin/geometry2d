@@ -27,7 +27,7 @@ void validatePolygon(const Polygon& polygon) {
     }
 }
 
-}
+}  // namespace
 
 Vector operator-(Point lhs, Point rhs) {
     return {lhs.x - rhs.x, lhs.y - rhs.y};
@@ -122,4 +122,4 @@ PointLocation locatePoint(const Polygon& polygon, Point point) {
     return inside ? PointLocation::Inside : PointLocation::Outside;
 }
 
-}
+}  // namespace geometry2d

@@ -41,4 +41,4 @@ double area(const Polygon& polygon);
 bool isCounterClockwise(const Polygon& polygon);
 PointLocation locatePoint(const Polygon& polygon, Point point);
 
-}
+}  // namespace geometry2d
